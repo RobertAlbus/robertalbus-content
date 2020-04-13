@@ -1,0 +1,14 @@
+project:
+  path: /projects/
+  items:
+    - basic-todo.md
+    - gol-rb.md
+    - poker-hand-comparator.md
+    - portfolio-site.md
+    - ruby-event-bus.md
+    - sitecore-media-importer.md
+    - studio-social.md
+main-page:
+  path: /main-page/
+  items:
+    - main-page.md
