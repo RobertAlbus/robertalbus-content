@@ -14,9 +14,7 @@ Algorithm for evaluating poker hands
 true
 @@@
 
-This project was written for a job interview. 
-
-The main objective of this project is to evaluate hands of cards from a modified suitless deck. Some of the original requirements were insufficient, such as only requiring evaluation between two players. I chose to implement a more thorough solution in cases such as this.
+The main objective of this project is to evaluate hands of cards from a modified suitless deck. Some of the original requirements did not match with typical real life needs of a game of poker. For example, a requirement was to compare the hands of only two players. I chose to implement a more robust and realistic solution in situations like this.
 
 The first step in the comparison algorithm is to determine the hand rank for each player. The frequency distribution of cards in a given hand is used to determine the hand's signature. The signature is essentially a list of integers that represent type of hand. For example, `[32]` represents a full house, and `[2111]` represents a single pair. This is often sufficient for evaluating a winner. If this is not the case and two hands have an identical signature then card values are evaluated to determine a winner.
 
