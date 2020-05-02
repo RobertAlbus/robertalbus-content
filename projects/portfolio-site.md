@@ -27,7 +27,7 @@ Shortcomings:
 * State is stored in discrete repository items rather than centrally in a state machine
 * Application architecture should be further modularized and decoupled
     * This is an upgrade to a legacy project that was one of my first apps. I now live with decisions I made before I knew anything about anything.
-s
+
 @@@ REPO
 https://github.com/robertalbus
 @@@
