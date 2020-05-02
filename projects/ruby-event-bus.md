@@ -20,9 +20,8 @@ Notable features:
 * Publishers do not need to have knowledge of subscribers.
 * subscribers receive messages automatically from the message bus.
 
-Shortcomings:
-* Does not guarantee object delivery
-* Does not implement topics, tags, or other filtering mechanisms
+Opportunties for improvement
+* Add a deliverability or retry guarantees to the message broker
 
 @@@ REPO
 https://github.com/RobertAlbus/event_bus

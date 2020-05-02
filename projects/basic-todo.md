@@ -20,9 +20,9 @@ Notable features:
 * Local storage for persistence across sessions
 * Hosted using Amazon Web Services S3 static website hosting
 
-Shortcomings:
-* Local storage persistence does not work cross-device by nature
-* Layout would benefit from a framework like Bootstrap's grid
+What I would do different next time:
+* Use a UI framework to speed up development
+* Use Trello. All jokes aside, the purpose of this project was to learn a new tool rather than create an effective to-do application.
 
 @@@ REPO
 https://github.com/RobertAlbus/todo.robertalbus.com

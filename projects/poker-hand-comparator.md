@@ -28,12 +28,10 @@ Notable features:
 * Utilizes Dependency Injection for sharing the State Machine
 * Clear module boundaries between each step (input => preprocess => evaluate => output)
 
-Shortcomings:
-* Does not currently evaluate suit
-* I reduced encapsulation for the sake of unit testing at the behest of the interviewer. I would prefer to keep class implementation details entirely encapsulted and only test the public API. C'est la vie.
-
+Opportunities for improvement:
+* Add support for card suits
+* I reduced encapsulation for the sake of unit testing at the behest of the interviewer. I would choose to maintain encapsulation for classes.
 
 @@@ REPO
 https://github.com/RobertAlbus/fishtank-poker
 @@@
-

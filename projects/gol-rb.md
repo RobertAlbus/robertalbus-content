@@ -20,12 +20,16 @@ Notable features:
 * OOP implementation of a classic programming challenge
 * Ruby only, no external libraries
 
+Opportunities for improvement:
+* Separate application concerns into modules
+    * Practice the SOLID principles
+    * Make use of feature modules for state, computing the eveolution of the game, rendering, etc
+* Various UI/UX improvements
+    * Graphical rendering
+    * Allow user interaction by clicking to toggle cell state
+    * Introduce transport control for start, stop, rendering speed
 
-Shortcomings:
-* Console output is not visually appealing
-* Ruby's implicit function return causes an underlying datastructure to print to the screen, interfering with the pretty-printed output.
 
 @@@ REPO
 https://github.com/RobertAlbus/gol_rb
 @@@
-

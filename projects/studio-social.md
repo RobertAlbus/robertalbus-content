@@ -27,15 +27,12 @@ Notable features:
     * Assets are stored in AWS S3
     * Uses AWS Cloudfront for SSL/TLS 1.1 and for HTML, JS, CSS caching
 
-Shortcomings:
-* UI does not display placeholder blocks while content is loading
-* Images are retreived directly from the asset bucket
-    * Publicly accessible bucket is not a best-practice
-    * Misses the opportunity to cache image assets with the CDN
-    * Images are not optimized in the backend, so a content author could upload gigantic images and impact performance
-    * This is the primary focus in the event that this project is revisited
-* Back end repo is manually deployed using CDK CLI and should instead have CI/CD pipeline
-
+Opportunities for improvement:
+* Set up CI/CD for both front end and back end repos
+* Add asset optimization for images
+* Access the asset through a media delivery subdomain instead of from the bucket directly.
+    * Enable asset caching in addition to the current document caching with the existing CDN
+    * This approach adheres to best practices
 
 @@@ REPO
 https://github.com/robertalbus
