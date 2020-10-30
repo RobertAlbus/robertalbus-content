@@ -3,7 +3,7 @@ Sitecore CMS Media Importer
 @@@
 
 @@@ TAGS
-C#, .NET, Sitecore CMS
+C#, .NET Framework, Sitecore CMS
 @@@
 
 @@@ DESCRIPTION

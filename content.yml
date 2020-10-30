@@ -5,7 +5,7 @@ project:
     - poker-hand-comparator.md
     - portfolio-site.md
     - sitecore-media-importer.md
-    - gol-rb.md
+    # - gol-rb.md
     - ruby-event-bus.md
     - basic-todo.md
 main-page:

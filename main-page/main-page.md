@@ -1,13 +1,9 @@
 Hi! I'm Robert. I'm a developer from Calgary, Canada. General hackabout. 
 
-
-Currently working as full stack dev implementing Sitecore CMS solutions on .NET.
-
-
-Experience with C#, TypeScript, Node, Angular 2+, AWS serverless technologies. Familiar with: git, Ruby, C++, Linux
+Experience with AWS serverless technologies, CICD pipelines, Infrastructure as Code, Linux, C# and .NET, TypeScript, Node, Angular 2+,
 
 
-Other interests include audio engineering, architectural acoustic theory, cycling, cooking and gardening. 
+Other interests include audio engineering, writing techno, architectural acoustic theory, cycling, cooking and gardening. 
 
 @@@ DISPLAY
 true

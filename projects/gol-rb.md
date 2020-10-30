@@ -11,7 +11,7 @@ Cellular Automata in Ruby
 @@@
 
 @@@ DISPLAY
-true
+false
 @@@
 
 The Game of Life is a 0-player cellular automation game.

@@ -14,21 +14,22 @@ Algorithm for evaluating poker hands
 true
 @@@
 
-The main objective of this project is to evaluate hands of cards from a modified suitless deck. Some of the original requirements did not match with typical real life needs of a game of poker. For example, a requirement was to compare the hands of only two players. I chose to implement a more robust and realistic solution in situations like this.
+This was a coding challenge for a job interview. It evaluates hands of cards from a modified suitless deck. The original requirements included comparing the hands of only two players. That's not how poker works, so I made it compare an arbitrary amount of player hands.
 
-The first step in the comparison algorithm is to determine the hand rank for each player. The frequency distribution of cards in a given hand is used to determine the type of hand (pair, straight, etc). This is often sufficient for evaluating a winner. If this is not the case and two hands have an identical signature then card values are evaluated to determine a winner.
+This algorithm converts each players hand to a frequency distribution to evaluate hand ranks. In the event that there is an obvious winner then 
+
+
 
 Notable features:
 * 95% test-coverage
-* Compares poker hands for N players
-* State is tracked in a central state machine
-* All other operations are performed with pure functions
-* Utilizes Dependency Injection for sharing the State Machine
-* Clear module boundaries between each step (input => preprocess => evaluate => output)
+* State is tracked in a central location
+* Makes strong use of pure functions
+* Shares modules with Dependency Injection
+* Clean code and clear module boundaries between each step (input => preprocess => evaluate => output)
 
 Opportunities for improvement:
 * Add support for card suits
-* I reduced encapsulation for the sake of unit testing at the behest of the interviewer. I would choose to maintain encapsulation for classes.
+* I reduced encapsulation for the sake of unit testing at the behest of the interviewer. I would choose to maintain encapsulation for implementation otherwise.
 
 @@@ REPO
 https://github.com/RobertAlbus/fishtank-poker

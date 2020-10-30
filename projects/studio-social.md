@@ -3,11 +3,11 @@ Event Listing Website
 @@@
 
 @@@ TAGS
-Angular, AWS Lambda,, AWS Cognito, AWS API Gateway, AWS S3, AWS Cloudfront, HTTPS, AWS Route53
+Angular, AWS Lambda, AWS Cognito, AWS API Gateway, AWS S3, AWS Cloudfront, HTTPS, AWS Route53
 @@@
 
 @@@ DESCRIPTION
-Custom minimalist CMS for a recurring music event
+Custom minimalist serverless CMS for a recurring music event
 @@@
 
 @@@ DISPLAY
@@ -15,7 +15,7 @@ true
 @@@
 
 
-This application allows event coordinators to log in and upload posters for the upcoming events. This single-asset approach allows the event coordinators to utilize existing event assets and to administer the website with minimal effort and input. 
+This application allows event coordinators to log in and upload posters for the upcoming events. The client application is written in Angular. The back end leverages AWS serverless technologies and Infrastructure as Code.
 
 Notable features:
 * Front end client is written with Angular
@@ -32,12 +32,9 @@ Opportunities for improvement:
 * Add asset optimization for images
 * Access the asset through a media delivery subdomain instead of from the bucket directly.
     * Enable asset caching in addition to the current document caching with the existing CDN
-    * This approach adheres to best practices
+    * This approach would adhere to best practices
 
-@@@ REPO
-https://github.com/robertalbus
-@@@
 
 @@@ LIVE_APP
-https://robertalbus.com
+https://habitatstudiosocial.com
 @@@
