@@ -1,13 +1,9 @@
 project:
   path: /projects/
   items:
-    - studio-social.md
-    - poker-hand-comparator.md
-    - portfolio-site.md
-    - sitecore-media-importer.md
-    # - gol-rb.md
-    - ruby-event-bus.md
-    - basic-todo.md
+    - clover.md
+    - static-site-cms.md
+    - budgi.md
 main-page:
   path: /main-page/
   items:
